@@ -15,7 +15,7 @@ export class Entry {
 
   static type = {
     expense: 'Despesa',
-    renevue: 'Receita'
+    revenue: 'Receita'
   };
 
   get paidText(): string {
